@@ -31,6 +31,10 @@ def hello():
     if 'username' in session:
         signedin = True
     return render_template('index.html',signedin = signedin)
+@app.route('/testaments')
+def hellor():
+    
+    return render_template('testaments.html')
 
 @app.route('/order', methods=['GET', 'POST'])
 def order():
