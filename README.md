@@ -7,3 +7,5 @@ This website runs on a flask server hosted locally, just execute **main.py**file
 In terminal or comand prompt do:
 `pip install flask`
 Also make sure you have python installed.
+
+If you are still unable to run, You can chek the basic html//css frontend code in the Basic front end folder

@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    background-color: #fff;
+}
+
+.tr{
+    font-size: 31px;
+    font-weight: 100;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+    width: 100%;
+    height: 15vh;
+    background-color: #FFF;
+}
+
+#nav #links{
+    display: flex;
+    gap: 20px;
+}
+
+#links a{
+    text-decoration: none;
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    color: inherit;
+
+}
+
+#nav3{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    width: 100%;
+    height: 40vh;
+    background-color: #FFF;
+}
+
+#heading h1{
+    font-size: 40px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#heading p{
+    margin: 12px;
+    font-size: 12px;
+    text-align: center;
+    margin: 20 0px;
+    width: 50%;
+}
+
+#heading button{
+    margin: 11px;
+    padding: 10px 28px;
+    background-color: black;
+    color: #fff;
+    border-radius: 100px;
+}
+
+#illus{
+    width: 100%;
+}
+
+#illus img{
+    width: 100%;
+}
+
+#details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10 5vw;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+#details #dleft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 48%;
+    text-align: right;
+    padding-right: 50px;
+    border-right: 2px solid #000;
+}
+#details #dleft #smline{
+    width: 5%;
+    height: 2px;
+    background-color: #000;
+    margin: 40px;
+}
+#details #dleft p{
+    width: 40%;
+    font-size: 12px;
+    text-align: right;
+}
+
+#details #dright{
+    width: 48%;
+}
+
+#dright .feat{
+    display: flex;
+    gap: 20px;
+}
+
+.feat p{
+    margin-top: 20px;
+    font-size: 12px;
+    width: 50%;
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h2{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
