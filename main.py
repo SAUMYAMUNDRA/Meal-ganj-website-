@@ -35,7 +35,10 @@ def hello():
 def hellor():
     
     return render_template('testaments.html')
-
+@app.route('/about')
+def hellor2():
+    
+    return render_template('about.html')
 @app.route('/order', methods=['GET', 'POST'])
 def order():
     if 'username' in session:
