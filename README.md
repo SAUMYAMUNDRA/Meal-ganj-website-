@@ -1,3 +1,4 @@
+Acess the website through this link: https://sam1711.pythonanywhere.com/
 # How to run the website?
 
 This website runs on a flask server hosted locally, just execute **main.py** file and open the highlighted link that includes your ip address in the browser 
